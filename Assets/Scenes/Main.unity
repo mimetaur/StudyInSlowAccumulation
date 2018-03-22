@@ -236,12 +236,12 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 3
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
@@ -253,8 +253,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 213508888}
-  m_LocalRotation: {x: 0.16036859, y: -0.10549713, z: 0.017241739, w: 0.9812518}
-  m_LocalPosition: {x: 8.2450485, y: 11.333874, z: -35.447876}
+  m_LocalRotation: {x: 0.04831495, y: -0.49056047, z: 0.027254311, w: 0.8696398}
+  m_LocalPosition: {x: 15.799527, y: 3.2496932, z: -7.7070622}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -369,7 +369,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: bd8b80c290ad64d8d885406e8fb7bf17, type: 2}
+  - {fileID: -89809614, guid: ef1a538c69ece428c8e1fd0a218a8d39, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -416,7 +416,7 @@ Transform:
   m_GameObject: {fileID: 220580058}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -1, z: 0}
-  m_LocalScale: {x: 100, y: 1, z: 100}
+  m_LocalScale: {x: 400, y: 1, z: 400}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -463,7 +463,7 @@ Prefab:
     - target: {fileID: 114968519751937486, guid: c8d497c5053c147a781b0fe422f85b9c,
         type: 2}
       propertyPath: attractionForce
-      value: 20
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d497c5053c147a781b0fe422f85b9c, type: 2}
@@ -533,7 +533,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4777539443165356, guid: c65aebb3136c1469d8e698734ca59f3f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 4
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4777539443165356, guid: c65aebb3136c1469d8e698734ca59f3f, type: 2}
       propertyPath: m_LocalPosition.y
