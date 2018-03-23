@@ -19,7 +19,6 @@ public class PlaySounds : MonoBehaviour
 
     public void PlayBallSound()
     {
-        print("col");
         AudioClip clip = ballClips[Random.Range(0, ballClips.Length)];
         source.PlayOneShot(clip, ballVolume);
     }
