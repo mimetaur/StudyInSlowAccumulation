@@ -23,9 +23,10 @@ GameObject:
   - component: {fileID: 135194126383678982}
   - component: {fileID: 23704760197630388}
   - component: {fileID: 54854052200882488}
+  - component: {fileID: 114059058163700768}
   m_Layer: 0
   m_Name: Outball
-  m_TagString: Untagged
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,6 +100,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114059058163700768
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1573672102741070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec38649b0e7314a21b7ff47c61559fa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135194126383678982
 SphereCollider:
   m_ObjectHideFlags: 1
