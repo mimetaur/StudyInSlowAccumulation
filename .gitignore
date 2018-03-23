@@ -61,3 +61,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Unity Video Recordings (default path)
+Recordings/
