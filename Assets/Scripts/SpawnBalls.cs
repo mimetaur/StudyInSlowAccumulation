@@ -8,6 +8,7 @@ public class SpawnBalls : MonoBehaviour
     public GameObject ball;
     public GameObject floor;
     public Material[] ballMaterials;
+
     public float spawnRate = 5.0f;
     public float spawnHeight = 50.0f;
 

@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 182906356}
   m_Layer: 0
   m_Name: Floor (2)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -223,7 +223,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.75
+  m_Intensity: 0.5
   m_Range: 20
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -382,7 +382,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 0.9940818, b: 0.97794116, a: 1}
-  m_Intensity: 0.5
+  m_Intensity: 0.25
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -434,7 +434,7 @@ GameObject:
   - component: {fileID: 220580059}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -530,7 +530,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4927163883064214, guid: c8d497c5053c147a781b0fe422f85b9c, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.67559016
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4927163883064214, guid: c8d497c5053c147a781b0fe422f85b9c, type: 2}
       propertyPath: m_LocalRotation.z
@@ -538,7 +538,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4927163883064214, guid: c8d497c5053c147a781b0fe422f85b9c, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.7372774
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4927163883064214, guid: c8d497c5053c147a781b0fe422f85b9c, type: 2}
       propertyPath: m_RootOrder
@@ -559,6 +559,10 @@ Prefab:
       propertyPath: attractionRadius
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 4927163883064214, guid: c8d497c5053c147a781b0fe422f85b9c, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d497c5053c147a781b0fe422f85b9c, type: 2}
   m_IsPrefabParent: 0
@@ -575,7 +579,7 @@ GameObject:
   - component: {fileID: 568462337}
   m_Layer: 0
   m_Name: Floor (5)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -687,7 +691,7 @@ GameObject:
   - component: {fileID: 955150060}
   m_Layer: 0
   m_Name: Floor (6)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -771,7 +775,7 @@ GameObject:
   - component: {fileID: 996844196}
   m_Layer: 0
   m_Name: Floor (1)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -855,7 +859,7 @@ GameObject:
   - component: {fileID: 1093943810}
   m_Layer: 0
   m_Name: Floor (3)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -939,7 +943,7 @@ GameObject:
   - component: {fileID: 1406097302}
   m_Layer: 0
   m_Name: Floor (4)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1061,9 +1065,9 @@ MonoBehaviour:
   - {fileID: -636341244, guid: d6249ff4d74c54d2ead2351940551144, type: 3}
   - {fileID: -636341244, guid: d6249ff4d74c54d2ead2351940551144, type: 3}
   spawnRate: 2
-  spawnHeight: 50
+  spawnHeight: 20
   floorCenter: {x: 0, y: 0, z: 0}
-  floorRadius: 50
+  floorRadius: 40
 --- !u!1 &1536765467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1077,7 +1081,7 @@ GameObject:
   - component: {fileID: 1536765469}
   m_Layer: 0
   m_Name: Floor (7)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1161,7 +1165,7 @@ GameObject:
   - component: {fileID: 1583712082}
   m_Layer: 0
   m_Name: Floor (8)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1272,7 +1276,7 @@ GameObject:
   - component: {fileID: 1835962240}
   m_Layer: 0
   m_Name: TotalFloor
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
