@@ -146,7 +146,7 @@ SubstanceImporter:
       - _Cutoff: 0.5
       - _DetailNormalMapScale: 1
       - _DstBlend: 0
-      - _GlossMapScale: 1
+      - _GlossMapScale: 0.8
       - _Glossiness: 0.5
       - _GlossyReflections: 1
       - _Metallic: 0
@@ -356,7 +356,7 @@ SubstanceImporter:
       - _Cutoff: 0.5
       - _DetailNormalMapScale: 1
       - _DstBlend: 0
-      - _GlossMapScale: 1
+      - _GlossMapScale: 0.85
       - _Glossiness: 0.5
       - _GlossyReflections: 1
       - _Metallic: 0
@@ -566,7 +566,7 @@ SubstanceImporter:
       - _Cutoff: 0.5
       - _DetailNormalMapScale: 1
       - _DstBlend: 0
-      - _GlossMapScale: 1
+      - _GlossMapScale: 0.8
       - _Glossiness: 0.5
       - _GlossyReflections: 1
       - _Metallic: 0
@@ -737,7 +737,7 @@ SubstanceImporter:
       texEnvs:
       - _BumpMap:
           texture: {instanceID: 0}
-          scale: {x: 1, y: 1}
+          scale: {x: 0.5, y: 0.5}
           offset: {x: 0, y: 0}
       - _DetailAlbedoMap:
           texture: {instanceID: 0}
@@ -757,26 +757,26 @@ SubstanceImporter:
           offset: {x: 0, y: 0}
       - _MainTex:
           texture: {instanceID: 0}
-          scale: {x: 1, y: 1}
+          scale: {x: 0.5, y: 0.5}
           offset: {x: 0, y: 0}
       - _MetallicGlossMap:
           texture: {instanceID: 0}
-          scale: {x: 1, y: 1}
+          scale: {x: 0.5, y: 0.5}
           offset: {x: 0, y: 0}
       - _OcclusionMap:
           texture: {instanceID: 0}
-          scale: {x: 1, y: 1}
+          scale: {x: 0.5, y: 0.5}
           offset: {x: 0, y: 0}
       - _ParallaxMap:
           texture: {instanceID: 0}
-          scale: {x: 1, y: 1}
+          scale: {x: 0.5, y: 0.5}
           offset: {x: 0, y: 0}
       floats:
       - _BumpScale: 1
       - _Cutoff: 0.5
       - _DetailNormalMapScale: 1
       - _DstBlend: 0
-      - _GlossMapScale: 1
+      - _GlossMapScale: 0.8
       - _Glossiness: 0.5
       - _GlossyReflections: 1
       - _Metallic: 0
@@ -986,7 +986,7 @@ SubstanceImporter:
       - _Cutoff: 0.5
       - _DetailNormalMapScale: 1
       - _DstBlend: 0
-      - _GlossMapScale: 1
+      - _GlossMapScale: 0.8
       - _Glossiness: 0.5
       - _GlossyReflections: 1
       - _Metallic: 0
