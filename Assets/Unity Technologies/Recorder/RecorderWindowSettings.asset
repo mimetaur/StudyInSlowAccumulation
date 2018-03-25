@@ -25,7 +25,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DisplayName: Pixels
   m_Id: b67b92a8-313d-4bab-b10a-9e1175e2eda4
-  m_OutputSize: 0
+  m_OutputSize: 2160
   m_AspectRatio: 0
   m_ForceEvenSize: 1
   source: 4
@@ -47,12 +47,12 @@ MonoBehaviour:
   m_AssetID: f1ce97c41fb2c4bf78d85631f2fe9268
   m_CaptureEveryNthFrame: 1
   m_FrameRateMode: 1
-  m_FrameRate: 30
-  m_FrameRateExact: 64
+  m_FrameRate: 29.970029830932617
+  m_FrameRateExact: 32
   m_StartFrame: 0
   m_EndFrame: 10
   m_StartTime: 0
-  m_EndTime: 720
+  m_EndTime: 660
   m_DurationMode: 3
   m_SynchFrameRate: 1
   m_BaseFileName:
