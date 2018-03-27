@@ -52,7 +52,7 @@ MonoBehaviour:
   m_StartFrame: 0
   m_EndFrame: 10
   m_StartTime: 0
-  m_EndTime: 660
+  m_EndTime: 30
   m_DurationMode: 3
   m_SynchFrameRate: 1
   m_BaseFileName:
