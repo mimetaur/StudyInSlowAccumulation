@@ -982,11 +982,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 23486532048535242, guid: c8d497c5053c147a781b0fe422f85b9c,
-        type: 2}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4927163883064214, guid: c8d497c5053c147a781b0fe422f85b9c, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1019,42 +1014,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 54196585288761190, guid: c8d497c5053c147a781b0fe422f85b9c,
-        type: 2}
-      propertyPath: m_Drag
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 54196585288761190, guid: c8d497c5053c147a781b0fe422f85b9c,
-        type: 2}
-      propertyPath: m_Mass
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 114968519751937486, guid: c8d497c5053c147a781b0fe422f85b9c,
-        type: 2}
-      propertyPath: attractionRadius
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 4927163883064214, guid: c8d497c5053c147a781b0fe422f85b9c, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 23486532048535242, guid: c8d497c5053c147a781b0fe422f85b9c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: -932163049, guid: d6249ff4d74c54d2ead2351940551144,
-        type: 3}
-    - target: {fileID: 23486532048535242, guid: c8d497c5053c147a781b0fe422f85b9c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 435445576, guid: d6249ff4d74c54d2ead2351940551144,
-        type: 3}
-    - target: {fileID: 23486532048535242, guid: c8d497c5053c147a781b0fe422f85b9c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 50ad737520b054ce88ee9ba505c0c2c0, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d497c5053c147a781b0fe422f85b9c, type: 2}
   m_IsPrefabParent: 0
@@ -2728,13 +2687,13 @@ MonoBehaviour:
   ball: {fileID: 1573672102741070, guid: c65aebb3136c1469d8e698734ca59f3f, type: 2}
   floor: {fileID: 1835962239}
   ballMaterials:
-  - {fileID: -1856652793, guid: d6249ff4d74c54d2ead2351940551144, type: 3}
-  - {fileID: -636341244, guid: d6249ff4d74c54d2ead2351940551144, type: 3}
-  - {fileID: 435445576, guid: d6249ff4d74c54d2ead2351940551144, type: 3}
-  - {fileID: -932163049, guid: d6249ff4d74c54d2ead2351940551144, type: 3}
-  - {fileID: 964333757, guid: d6249ff4d74c54d2ead2351940551144, type: 3}
-  - {fileID: 964333757, guid: d6249ff4d74c54d2ead2351940551144, type: 3}
-  - {fileID: -636341244, guid: d6249ff4d74c54d2ead2351940551144, type: 3}
+  - {fileID: 2100000, guid: 2cd9669a4ec9d45ce97d525d53eb08b9, type: 2}
+  - {fileID: 2100000, guid: 2cd9669a4ec9d45ce97d525d53eb08b9, type: 2}
+  - {fileID: 2100000, guid: 2cd9669a4ec9d45ce97d525d53eb08b9, type: 2}
+  - {fileID: 2100000, guid: 2cd9669a4ec9d45ce97d525d53eb08b9, type: 2}
+  - {fileID: 2100000, guid: 2cd9669a4ec9d45ce97d525d53eb08b9, type: 2}
+  - {fileID: 2100000, guid: 2cd9669a4ec9d45ce97d525d53eb08b9, type: 2}
+  - {fileID: 2100000, guid: 2cd9669a4ec9d45ce97d525d53eb08b9, type: 2}
   spawnRate: 3
   spawnHeight: 40
   floorCenter: {x: 0, y: 0, z: 0}
