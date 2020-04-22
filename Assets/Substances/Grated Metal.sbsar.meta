@@ -16,9 +16,7 @@ ScriptedImporter:
     graphDescIndex: 0
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://grated_metal\" label=\"\" >\n  <presetinput
-      identifier=\"$outputsize\" uid=\"1201780470\" type=\"8\" value=\"9,9\" />\n
-      </sbspreset>\n"
+    preset: " <sbspreset pkgurl=\"pkg://grated_metal\" label=\"\" >\n </sbspreset>\n"
     shaderName: HDRP/LitTessellation
     materialProperties:
       shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
@@ -33,7 +31,7 @@ ScriptedImporter:
       - name: _BaseColorMap
         texture: {fileID: -5355593520620060263, guid: 3697f80d2a0e14480b308dfb111463fa,
           type: 3}
-        scale: {x: 1, y: 1}
+        scale: {x: 2, y: 2}
         offset: {x: 0, y: 0}
       - name: _BentNormalMap
         texture: {instanceID: 0}
@@ -175,7 +173,7 @@ ScriptedImporter:
       - name: _DistortionBlurBlendMode
         float: 0
       - name: _DistortionBlurDstBlend
-        float: 0
+        float: 1
       - name: _DistortionBlurRemapMax
         float: 1
       - name: _DistortionBlurRemapMin
@@ -183,17 +181,17 @@ ScriptedImporter:
       - name: _DistortionBlurScale
         float: 1
       - name: _DistortionBlurSrcBlend
-        float: 0
+        float: 1
       - name: _DistortionDepthTest
         float: 1
       - name: _DistortionDstBlend
-        float: 0
+        float: 1
       - name: _DistortionEnable
         float: 0
       - name: _DistortionScale
         float: 1
       - name: _DistortionSrcBlend
-        float: 0
+        float: 1
       - name: _DistortionVectorBias
         float: -1
       - name: _DistortionVectorScale
@@ -221,11 +219,11 @@ ScriptedImporter:
       - name: _EnergyConservingSpecularColor
         float: 1
       - name: _HeightAmplitude
-        float: 0.02
+        float: 0.01
       - name: _HeightCenter
         float: 0.5
       - name: _HeightMapParametrization
-        float: 0
+        float: 1
       - name: _HeightMax
         float: 1
       - name: _HeightMin
@@ -235,11 +233,11 @@ ScriptedImporter:
       - name: _HeightPoMAmplitude
         float: 2
       - name: _HeightTessAmplitude
-        float: 2
+        float: 1
       - name: _HeightTessCenter
         float: 0.5
       - name: _InvTilingScale
-        float: 1
+        float: 0.5
       - name: _Ior
         float: 1
       - name: _IridescenceMask
@@ -255,7 +253,7 @@ ScriptedImporter:
       - name: _NormalMapSpace
         float: 0
       - name: _NormalScale
-        float: 1
+        float: 4
       - name: _PPDLodThreshold
         float: 5
       - name: _PPDMaxSamples
@@ -289,23 +287,23 @@ ScriptedImporter:
       - name: _StencilRef
         float: 0
       - name: _StencilRefDepth
-        float: 0
+        float: 8
       - name: _StencilRefDistortionVec
-        float: 2
+        float: 4
       - name: _StencilRefGBuffer
-        float: 2
+        float: 10
       - name: _StencilRefMV
-        float: 32
+        float: 40
       - name: _StencilWriteMask
-        float: 3
+        float: 6
       - name: _StencilWriteMaskDepth
         float: 8
       - name: _StencilWriteMaskDistortionVec
-        float: 2
+        float: 4
       - name: _StencilWriteMaskGBuffer
-        float: 3
+        float: 14
       - name: _StencilWriteMaskMV
-        float: 32
+        float: 40
       - name: _SubsurfaceMask
         float: 1
       - name: _SupportDecals
@@ -361,11 +359,11 @@ ScriptedImporter:
       - name: _UseShadowThreshold
         float: 0
       - name: _ZTestDepthEqualForOpaque
-        float: 4
+        float: 3
       - name: _ZTestGBuffer
         float: 4
       - name: _ZTestModeDistortion
-        float: 8
+        float: 4
       - name: _ZTestTransparent
         float: 4
       - name: _ZWrite
