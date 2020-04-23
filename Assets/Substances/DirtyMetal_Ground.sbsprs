@@ -1,5 +1,0 @@
-<sbspresets count="1" formatversion="1.1">
-  <sbspreset pkgurl="pkg://DirtyMetal" label="" >
-  <presetinput identifier="$outputsize" uid="1146663361" type="8" value="11,11" />
- </sbspreset>
-</sbspresets>
