@@ -14,11 +14,12 @@ ScriptedImporter:
   - graphLabel: DirtyMetal
     prototypeName: DirtyMetal
     graphDescIndex: 0
-    generateAllOutputs: 1
+    generateAllOutputs: 0
     generateMipMaps: 1
     preset: " <sbspreset pkgurl=\"pkg://DirtyMetal\" label=\"\" >\n  <presetinput
-      identifier=\"$outputsize\" uid=\"1146663361\" type=\"8\" value=\"12,12\" />\n
-      </sbspreset>\n"
+      identifier=\"$outputsize\" uid=\"1146663361\" type=\"8\" value=\"12,12\" />\n 
+      <presetinput identifier=\"$randomseed\" uid=\"321562515\" type=\"4\" value=\"6947\"
+      />\n </sbspreset>\n"
     shaderName: HDRP/LitTessellation
     materialProperties:
       shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
@@ -276,7 +277,7 @@ ScriptedImporter:
       - name: _Smoothness
         float: 0.5
       - name: _SmoothnessRemapMax
-        float: 0.5391832
+        float: 1
       - name: _SmoothnessRemapMin
         float: 0
       - name: _SpecularAAScreenSpaceVariance
@@ -558,8 +559,5 @@ ScriptedImporter:
     generatedTextures:
     - {fileID: -5535365221552448160, guid: a84f60d0af231449daf1f87667c3dedf, type: 3}
     - {fileID: -767971919640908197, guid: a84f60d0af231449daf1f87667c3dedf, type: 3}
-    - {fileID: -7907208658746639467, guid: a84f60d0af231449daf1f87667c3dedf, type: 3}
-    - {fileID: 3386557750596751480, guid: a84f60d0af231449daf1f87667c3dedf, type: 3}
     - {fileID: 2457230619895981597, guid: a84f60d0af231449daf1f87667c3dedf, type: 3}
-    - {fileID: -3780874493761277585, guid: a84f60d0af231449daf1f87667c3dedf, type: 3}
     - {fileID: 6638991093976007920, guid: a84f60d0af231449daf1f87667c3dedf, type: 3}

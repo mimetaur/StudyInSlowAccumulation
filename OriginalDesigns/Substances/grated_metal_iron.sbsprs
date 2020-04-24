@@ -1,0 +1,9 @@
+<sbspresets count="1" formatversion="1.1">
+  <sbspreset pkgurl="pkg://grated_metal" label="" >
+  <presetinput identifier="$outputsize" uid="1201780470" type="8" value="12,12" />
+  <presetinput identifier="$randomseed" uid="282304676" type="4" value="1008" />
+  <presetinput identifier="roughness_amount" uid="859429381" type="0" value="0.495" />
+  <presetinput identifier="grunge_intensity" uid="858064741" type="0" value="0.669" />
+  <presetinput identifier="metal_color" uid="858075294" type="4" value="3" />
+ </sbspreset>
+</sbspresets>

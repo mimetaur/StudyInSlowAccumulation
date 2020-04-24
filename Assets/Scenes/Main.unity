@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 216753738}
-  m_IndirectSpecularColor: {r: 0.00025809382, g: 0.00042570432, b: 0.00051472225,
+  m_IndirectSpecularColor: {r: 0.00012903674, g: 0.00021285216, b: 0.00025736113,
     a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -57,7 +57,7 @@ LightmapSettings:
   m_LightmapEditorSettings:
     serializedVersion: 12
     m_Resolution: 2
-    m_BakeResolution: 5
+    m_BakeResolution: 2
     m_AtlasSize: 1024
     m_AO: 1
     m_AOMaxDistance: 5
@@ -73,7 +73,7 @@ LightmapSettings:
     m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 0
-    m_BakeBackend: 1
+    m_BakeBackend: 2
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
@@ -152,7 +152,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3.9788735
+  m_Intensity: 7.957747
   m_Range: 50
   m_SpotAngle: 71.6
   m_InnerSpotAngle: 21.802082
@@ -235,7 +235,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 50
+  m_Intensity: 100
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -539,7 +539,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &216753738
 Light:
   m_ObjectHideFlags: 0
@@ -552,7 +552,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.9940818, b: 0.97794116, a: 1}
-  m_Intensity: 0.0025
+  m_Intensity: 0.001
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.802082
@@ -595,8 +595,8 @@ Light:
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 2
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
+  m_ColorTemperature: 5055
+  m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 7.407521e+19, z: 4.5876e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
@@ -635,7 +635,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 0.0025
+  m_Intensity: 0.001
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -833,7 +833,7 @@ GameObject:
   - component: {fileID: 923382945}
   - component: {fileID: 923382944}
   m_Layer: 0
-  m_Name: Point light (1)
+  m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -873,7 +873,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 400
+  m_Intensity: 200
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -975,7 +975,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 31.830988
+  m_Intensity: 15.915494
   m_Range: 120
   m_SpotAngle: 71.6
   m_InnerSpotAngle: 21.802082
@@ -1018,61 +1018,13 @@ Light:
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 6936
+  m_ColorTemperature: 5055
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: -5.1099937e+32, z: 4.5876e-41, w: 9.403955e-38}
+  m_BoundingSphereOverride: {x: 0, y: -7471648, z: 4.5765e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0.03
   m_ShadowAngle: 0
---- !u!1 &1171876411
-GameObject:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1171876413}
-  - component: {fileID: 1171876412}
-  m_Layer: 0
-  m_Name: StaticLightingSky
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1171876412
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1171876411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 441482e8936e35048a1dffac814e3ef8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Profile: {fileID: 11400000, guid: 2c555bd77d7d246bab56053bcbbe87df, type: 2}
-  m_StaticLightingSkyUniqueID: 3
-  m_SkySettings: {fileID: 1352793090}
-  m_SkySettingsFromProfile: {fileID: 7971912461578956015, guid: 2c555bd77d7d246bab56053bcbbe87df,
-    type: 2}
---- !u!4 &1171876413
-Transform:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1171876411}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1352793090
+--- !u!114 &1137465619
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1099,7 +1051,7 @@ MonoBehaviour:
     m_Value: 5
   multiplier:
     m_OverrideState: 0
-    m_Value: 0.001
+    m_Value: 0.0005
     min: 0
   upperHemisphereLuxValue:
     m_OverrideState: 0
@@ -1142,6 +1094,54 @@ MonoBehaviour:
   gradientDiffusion:
     m_OverrideState: 0
     m_Value: 12
+--- !u!1 &1171876411
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1171876413}
+  - component: {fileID: 1171876412}
+  m_Layer: 0
+  m_Name: StaticLightingSky
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1171876412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171876411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441482e8936e35048a1dffac814e3ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Profile: {fileID: 11400000, guid: 2c555bd77d7d246bab56053bcbbe87df, type: 2}
+  m_StaticLightingSkyUniqueID: 3
+  m_SkySettings: {fileID: 1137465619}
+  m_SkySettingsFromProfile: {fileID: 7971912461578956015, guid: 2c555bd77d7d246bab56053bcbbe87df,
+    type: 2}
+--- !u!4 &1171876413
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171876411}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1419301847
 GameObject:
   m_ObjectHideFlags: 0
