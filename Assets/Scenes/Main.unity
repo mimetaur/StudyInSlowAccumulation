@@ -58,7 +58,7 @@ LightmapSettings:
     serializedVersion: 12
     m_Resolution: 2
     m_BakeResolution: 2
-    m_AtlasSize: 1024
+    m_AtlasSize: 2048
     m_AO: 1
     m_AOMaxDistance: 5
     m_CompAOExponent: 1
@@ -595,7 +595,7 @@ Light:
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 2
-  m_ColorTemperature: 5055
+  m_ColorTemperature: 5700
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 7.407521e+19, z: 4.5876e-41, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -847,7 +847,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 923382942}
   m_LocalRotation: {x: 0.6542159, y: -0, z: -0, w: 0.75630784}
-  m_LocalPosition: {x: 0, y: 44.7, z: -9.9}
+  m_LocalPosition: {x: 0, y: 48.1, z: -10.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1825475848}
@@ -873,7 +873,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 200
+  m_Intensity: 400
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -890,7 +890,7 @@ MonoBehaviour:
   m_ShapeRadius: 0.03
   m_SoftnessScale: 1
   m_UseCustomSpotLightShadowCone: 0
-  m_CustomSpotLightShadowCone: 30
+  m_CustomSpotLightShadowCone: 1
   m_MaxSmoothness: 0.99
   m_ApplyRangeAttenuation: 1
   m_DisplayAreaLightEmissiveMesh: 0
@@ -975,10 +975,10 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 15.915494
-  m_Range: 120
-  m_SpotAngle: 71.6
-  m_InnerSpotAngle: 21.802082
+  m_Intensity: 31.830988
+  m_Range: 200
+  m_SpotAngle: 29.7
+  m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -1018,13 +1018,13 @@ Light:
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 5055
+  m_ColorTemperature: 5500
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: -7471648, z: 4.5765e-41, w: 0}
+  m_BoundingSphereOverride: {x: 1e-45, y: -1.1930722e-38, z: 4.588e-41, w: 1.3623127e-16}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0.03
   m_ShadowAngle: 0
---- !u!114 &1137465619
+--- !u!114 &956799632
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1125,7 +1125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Profile: {fileID: 11400000, guid: 2c555bd77d7d246bab56053bcbbe87df, type: 2}
   m_StaticLightingSkyUniqueID: 3
-  m_SkySettings: {fileID: 1137465619}
+  m_SkySettings: {fileID: 956799632}
   m_SkySettingsFromProfile: {fileID: 7971912461578956015, guid: 2c555bd77d7d246bab56053bcbbe87df,
     type: 2}
 --- !u!4 &1171876413
@@ -1191,12 +1191,12 @@ MonoBehaviour:
   ball: {fileID: 1573672102741070, guid: c65aebb3136c1469d8e698734ca59f3f, type: 3}
   floor: {fileID: 1588996607}
   ballMaterials:
+  - {fileID: -1238978055961701782, guid: 3697f80d2a0e14480b308dfb111463fa, type: 3}
+  - {fileID: -1238978055961701782, guid: 3697f80d2a0e14480b308dfb111463fa, type: 3}
+  - {fileID: 9210489853455821327, guid: 3697f80d2a0e14480b308dfb111463fa, type: 3}
+  - {fileID: 9210489853455821327, guid: 3697f80d2a0e14480b308dfb111463fa, type: 3}
   - {fileID: 5996825626913898753, guid: 3697f80d2a0e14480b308dfb111463fa, type: 3}
-  - {fileID: -1238978055961701782, guid: 3697f80d2a0e14480b308dfb111463fa, type: 3}
-  - {fileID: 6751929609624016560, guid: 3697f80d2a0e14480b308dfb111463fa, type: 3}
-  - {fileID: -1238978055961701782, guid: 3697f80d2a0e14480b308dfb111463fa, type: 3}
   - {fileID: 5996825626913898753, guid: 3697f80d2a0e14480b308dfb111463fa, type: 3}
-  - {fileID: -1238978055961701782, guid: 3697f80d2a0e14480b308dfb111463fa, type: 3}
   - {fileID: 6751929609624016560, guid: 3697f80d2a0e14480b308dfb111463fa, type: 3}
   spawnRate: 3
   spawnHeight: 40
@@ -1402,7 +1402,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 2c775b2a4c4794b30a3c57ebf23064cd,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 2c775b2a4c4794b30a3c57ebf23064cd,
         type: 3}
