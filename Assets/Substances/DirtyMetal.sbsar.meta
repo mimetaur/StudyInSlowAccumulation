@@ -18,7 +18,7 @@ ScriptedImporter:
     generateMipMaps: 1
     preset: " <sbspreset pkgurl=\"pkg://DirtyMetal\" label=\"\" >\n  <presetinput
       identifier=\"$outputsize\" uid=\"1146663361\" type=\"8\" value=\"12,12\" />\n 
-      <presetinput identifier=\"$randomseed\" uid=\"321562515\" type=\"4\" value=\"6947\"
+      <presetinput identifier=\"$randomseed\" uid=\"321562515\" type=\"4\" value=\"3874\"
       />\n </sbspreset>\n"
     shaderName: HDRP/LitTessellation
     materialProperties:
