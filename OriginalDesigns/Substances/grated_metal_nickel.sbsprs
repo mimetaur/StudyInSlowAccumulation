@@ -1,0 +1,12 @@
+<sbspresets count="1" formatversion="1.1">
+  <sbspreset pkgurl="pkg://grated_metal" label="" >
+  <presetinput identifier="$outputsize" uid="1201780470" type="8" value="11,11" />
+  <presetinput identifier="$randomseed" uid="282304676" type="4" value="1008" />
+  <presetinput identifier="rivet_tiling" uid="859402774" type="4" value="64" />
+  <presetinput identifier="grunge_balance" uid="859415030" type="0" value="0.322" />
+  <presetinput identifier="grungy_grate_overlay_amount" uid="859430292" type="0" value="0.336" />
+  <presetinput identifier="roughness_amount" uid="859429381" type="0" value="0.495" />
+  <presetinput identifier="grunge_intensity" uid="858064741" type="0" value="0.668" />
+  <presetinput identifier="metal_color" uid="858075294" type="4" value="6" />
+ </sbspreset>
+</sbspresets>
