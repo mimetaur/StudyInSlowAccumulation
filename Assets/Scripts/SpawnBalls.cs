@@ -14,6 +14,7 @@ public class SpawnBalls : MonoBehaviour
 
     public Vector3 floorCenter = new Vector3(0, 0, 0);
     public float floorRadius = 50.0f;
+    public int spawnOddsPercent = 50;
 
     void Start()
     {
@@ -22,6 +23,10 @@ public class SpawnBalls : MonoBehaviour
 
     void SpawnBall()
     {
+        if (Random.Range(0, 100) > spawnOddsPercent)
+        {
+            return;
+        }
 
         Material newMat = ballMaterials[Random.Range(0, ballMaterials.Length)];
 

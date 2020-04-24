@@ -568,7 +568,8 @@ ScriptedImporter:
       />\n  <presetinput identifier=\"grunge_balance\" uid=\"859415030\" type=\"0\"
       value=\"0.258\" />\n  <presetinput identifier=\"roughness_amount\" uid=\"859429381\"
       type=\"0\" value=\"0.197\" />\n  <presetinput identifier=\"grunge_intensity\"
-      uid=\"858064741\" type=\"0\" value=\"0.669\" />\n </sbspreset>\n"
+      uid=\"858064741\" type=\"0\" value=\"0.669\" />\n  <presetinput identifier=\"metalness\"
+      uid=\"793278240\" type=\"0\" value=\"0.376\" />\n </sbspreset>\n"
     shaderName: HDRP/LitTessellation
     materialProperties:
       shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
@@ -584,7 +585,7 @@ ScriptedImporter:
       - name: _BaseColorMap
         texture: {fileID: -3702529805746336817, guid: 3697f80d2a0e14480b308dfb111463fa,
           type: 3}
-        scale: {x: 3, y: 3}
+        scale: {x: 2, y: 2}
         offset: {x: 0, y: 0}
       - name: _BentNormalMap
         texture: {instanceID: 0}
@@ -790,7 +791,7 @@ ScriptedImporter:
       - name: _HeightTessCenter
         float: 0.5
       - name: _InvTilingScale
-        float: 0.33333334
+        float: 0.5
       - name: _Ior
         float: 1
       - name: _IridescenceMask
@@ -1121,7 +1122,8 @@ ScriptedImporter:
       />\n  <presetinput identifier=\"roughness_amount\" uid=\"859429381\" type=\"0\"
       value=\"0.495\" />\n  <presetinput identifier=\"grunge_intensity\" uid=\"858064741\"
       type=\"0\" value=\"0.669\" />\n  <presetinput identifier=\"metal_color\" uid=\"858075294\"
-      type=\"4\" value=\"3\" />\n </sbspreset>\n"
+      type=\"4\" value=\"3\" />\n  <presetinput identifier=\"metalness\" uid=\"793278240\"
+      type=\"0\" value=\"0.496\" />\n </sbspreset>\n"
     shaderName: HDRP/LitTessellation
     materialProperties:
       shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
@@ -1675,7 +1677,8 @@ ScriptedImporter:
       value=\"16\" />\n  <presetinput identifier=\"roughness_amount\" uid=\"859429381\"
       type=\"0\" value=\"0.474\" />\n  <presetinput identifier=\"grunge_intensity\"
       uid=\"858064741\" type=\"0\" value=\"0.307\" />\n  <presetinput identifier=\"metal_color\"
-      uid=\"858075294\" type=\"4\" value=\"0\" />\n </sbspreset>\n"
+      uid=\"858075294\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"metalness\"
+      uid=\"793278240\" type=\"0\" value=\"1\" />\n </sbspreset>\n"
     shaderName: HDRP/LitTessellation
     materialProperties:
       shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
@@ -1691,7 +1694,7 @@ ScriptedImporter:
       - name: _BaseColorMap
         texture: {fileID: 1490160891189007706, guid: 3697f80d2a0e14480b308dfb111463fa,
           type: 3}
-        scale: {x: 3, y: 3}
+        scale: {x: 2, y: 2}
         offset: {x: 0, y: 0}
       - name: _BentNormalMap
         texture: {instanceID: 0}
@@ -1897,7 +1900,7 @@ ScriptedImporter:
       - name: _HeightTessCenter
         float: 0.5
       - name: _InvTilingScale
-        float: 0.33333334
+        float: 0.5
       - name: _Ior
         float: 1
       - name: _IridescenceMask
@@ -2231,7 +2234,8 @@ ScriptedImporter:
       uid=\"859430292\" type=\"0\" value=\"0.336\" />\n  <presetinput identifier=\"roughness_amount\"
       uid=\"859429381\" type=\"0\" value=\"0.495\" />\n  <presetinput identifier=\"grunge_intensity\"
       uid=\"858064741\" type=\"0\" value=\"0.668\" />\n  <presetinput identifier=\"metal_color\"
-      uid=\"858075294\" type=\"4\" value=\"6\" />\n </sbspreset>\n"
+      uid=\"858075294\" type=\"4\" value=\"6\" />\n  <presetinput identifier=\"metalness\"
+      uid=\"793278240\" type=\"0\" value=\"0.413\" />\n </sbspreset>\n"
     shaderName: HDRP/LitTessellation
     materialProperties:
       shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}

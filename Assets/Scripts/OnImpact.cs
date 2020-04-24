@@ -7,6 +7,7 @@ public class OnImpact : MonoBehaviour
 
     private PlaySounds playSounds;
     private Renderer rend;
+    public bool onlyPlayIfVisible = false;
 
     private void Start()
     {
@@ -17,7 +18,7 @@ public class OnImpact : MonoBehaviour
 
     void OnCollisionEnter(Collision col)
     {
-        if (!rend.isVisible)
+        if (rend.isVisible == false && onlyPlayIfVisible == true)
         {
             return;
         }

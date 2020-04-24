@@ -8,5 +8,6 @@
   <presetinput identifier="roughness_amount" uid="859429381" type="0" value="0.495" />
   <presetinput identifier="grunge_intensity" uid="858064741" type="0" value="0.668" />
   <presetinput identifier="metal_color" uid="858075294" type="4" value="6" />
+  <presetinput identifier="metalness" uid="793278240" type="0" value="0.413" />
  </sbspreset>
 </sbspresets>

@@ -1,8 +1,10 @@
 <sbspresets count="1" formatversion="1.1">
   <sbspreset pkgurl="pkg://grated_metal" label="" >
+  <presetinput identifier="$outputsize" uid="1201780470" type="8" value="11,11" />
   <presetinput identifier="rivet_tiling" uid="859402774" type="4" value="32" />
   <presetinput identifier="grunge_balance" uid="859415030" type="0" value="0.258" />
   <presetinput identifier="roughness_amount" uid="859429381" type="0" value="0.197" />
   <presetinput identifier="grunge_intensity" uid="858064741" type="0" value="0.669" />
+  <presetinput identifier="metalness" uid="793278240" type="0" value="0.61" />
  </sbspreset>
 </sbspresets>
