@@ -5,7 +5,7 @@ using UnityEngine;
 public class OnImpact : MonoBehaviour
 {
 
-    private PlaySounds playSounds;
+    public PlaySounds playSounds;
     private Renderer rend;
     public bool onlyPlayIfVisible = false;
 
@@ -13,7 +13,6 @@ public class OnImpact : MonoBehaviour
     {
         var gameManager = GameObject.Find("GameManager");
         rend = this.gameObject.GetComponent<Renderer>();
-        playSounds = gameManager.GetComponent<PlaySounds>();
     }
 
     void OnCollisionEnter(Collision col)

@@ -10,6 +10,7 @@ public class SpawnBalls : MonoBehaviour
     public Material[] ballMaterials;
 
     public float spawnRate = 5.0f;
+    public float spawnInitialDelay = 5.0f;
     public float spawnHeight = 50.0f;
 
     public Vector3 floorCenter = new Vector3(0, 0, 0);
@@ -18,7 +19,7 @@ public class SpawnBalls : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("SpawnBall", spawnRate, spawnRate);
+        InvokeRepeating("SpawnBall", spawnInitialDelay, spawnRate);
     }
 
     void SpawnBall()
