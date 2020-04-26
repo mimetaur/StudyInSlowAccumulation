@@ -134,7 +134,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 2000
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 1
@@ -184,7 +184,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.5
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -236,6 +236,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 1153344567317760478}
+  ballVolume: 0.4
+  floorVolume: 1
   floorClips:
   - {fileID: 8300000, guid: 2611bc1769be646c2bb463202e1569f1, type: 3}
   - {fileID: 8300000, guid: eb1d42f98cdac4bc8b9c3d7aef55dbe2, type: 3}
@@ -248,5 +250,3 @@ MonoBehaviour:
   - {fileID: 8300000, guid: c346ca3e533d64d7792a7aecd3dee2ff, type: 3}
   - {fileID: 8300000, guid: 8da05aa1a30164217acefc79fd86d8f8, type: 3}
   - {fileID: 8300000, guid: efb5595dd489945df82c291b45e12b20, type: 3}
-  ballVolume: 0.5
-  floorVolume: 1.25
