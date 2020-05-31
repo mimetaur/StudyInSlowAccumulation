@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class Attractor : MonoBehaviour
 {
-
-    public float attractionRadius = 2;
-    public float attractionForce = 1;
+    [SerializeField] private float attractionRadius = 2;
+    [SerializeField] private float attractionForce = 1;
 
     public void FixedUpdate()
     {

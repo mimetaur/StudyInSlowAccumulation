@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class OnImpact : MonoBehaviour
 {
-
-    public PlaySounds playSounds;
+    [SerializeField] private PlaySounds playSounds = default;
+    [SerializeField] private bool onlyPlayIfVisible = false;
     private Renderer rend;
-    public bool onlyPlayIfVisible = false;
 
     private void Start()
     {

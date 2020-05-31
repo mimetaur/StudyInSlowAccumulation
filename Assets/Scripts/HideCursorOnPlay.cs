@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class HideCursorOnPlay : MonoBehaviour
 {
-
     void Start()
     {
         Cursor.visible = false;
-
     }
-
 }

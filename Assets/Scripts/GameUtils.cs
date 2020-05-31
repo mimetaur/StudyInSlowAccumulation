@@ -4,7 +4,6 @@ using UnityEngine;
 
 public static class GameUtils
 {
-
     public static Vector3 RandomPointWithinCircle(Vector3 center, float radius)
     {
         float ang = Random.value * 360;
