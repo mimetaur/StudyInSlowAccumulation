@@ -95,7 +95,7 @@ MonoBehaviour:
     m_Value: 2
   intensity:
     m_OverrideState: 1
-    m_Value: 0.3
+    m_Value: 0.15
     min: 0
   maximumVelocity:
     m_OverrideState: 0
@@ -103,8 +103,8 @@ MonoBehaviour:
     min: 0
     max: 1500
   minimumVelocity:
-    m_OverrideState: 0
-    m_Value: 2
+    m_OverrideState: 1
+    m_Value: 5
     min: 0
     max: 64
   cameraRotationVelocityClamp:
